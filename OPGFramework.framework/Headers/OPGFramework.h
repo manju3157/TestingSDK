@@ -17,6 +17,8 @@ FOUNDATION_EXPORT const unsigned char OPGFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <OPGFramework/PublicHeader.h>
 
 
+//#import <OPGFramework/IosRuntimeInteractor.h>
+
 #import <OPGFramework/OPGSDK.h>
 
 #import <OPGFramework/OPGSurvey.h>
@@ -37,3 +39,4 @@ FOUNDATION_EXPORT const unsigned char OPGFrameworkVersionString[];
 #import <OPGFramework/OPGBaseController.h>
 #import <OPGFramework/OPGViewController.h>
 #import <OPGFramework/OPGAvailability.h>
+

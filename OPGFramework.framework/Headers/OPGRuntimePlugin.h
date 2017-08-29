@@ -9,11 +9,11 @@
 #import "RootPlugin.h"
 
 
-#import <OnePoint.Runtime/InterviewSession.h>
-#import <OnePoint.Runtime/IosRuntimeInteractor.h>
-#import <OnePoint.Runtime/WebPlayer.h>
-#import <OnePoint.Runtime/Controller.h>
-#import <OnePoint.Runtime/WebSession.h>
+#import <OPGRuntime/InterviewSession.h>
+#import <OPGRuntime/IosRuntimeInteractor.h>
+#import <OPGRuntime/WebPlayer.h>
+#import <OPGRuntime/Controller.h>
+#import <OPGRuntime/WebSession.h>
 
 @interface OPGRuntimePlugin : RootPlugin<IosRuntimeInteractor>
 {
