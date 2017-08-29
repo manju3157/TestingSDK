@@ -1,0 +1,16 @@
+PODS:
+  - TestingSDK (0.1.6)
+
+DEPENDENCIES:
+  - TestingSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TestingSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TestingSDK: 66ab19ebdb9ac1375ff0bb2c57d054641c9e3937
+
+PODFILE CHECKSUM: 61a48529ee41973d9be6370c188c1c7ddfdc13d4
+
+COCOAPODS: 1.3.1

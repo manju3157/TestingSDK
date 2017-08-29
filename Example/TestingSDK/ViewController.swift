@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import OPGFramework
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let sdk = OPGSDK()
+        var obj: OPGAuthenticate
+
+        do {
+            obj = try sdk.authenticate("", password: "")
+            print(obj);
+        }
+        catch{
+            print("Authentication Failed")         /* @"Error Occured. Contact Support!" */
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
