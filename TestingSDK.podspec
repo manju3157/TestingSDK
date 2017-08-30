@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestingSDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'My First SDK'
 
 
@@ -37,7 +37,7 @@ My First SDK to take mobile surveys
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
  s.library = 'xml2', 'c++', 'iconv', 'z'
- # s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC', '-lxml2' }
+ s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC','-lz' ,'-lxml2' }
 
   
   #s.private_header_files = 'OPGFramework.framework/PrivateHeaders/*.h', 'OPGRuntime.framework/#PrivateHeaders/*.h'
