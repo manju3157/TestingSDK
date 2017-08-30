@@ -37,7 +37,7 @@ My First SDK to take mobile surveys
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
  s.library = 'xml2', 'c++', 'iconv', 'z'
- s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC','-lz','-lxml2' }
+ s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
   
 
