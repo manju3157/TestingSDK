@@ -40,9 +40,7 @@ My First SDK to take mobile surveys
  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC','-lz','-lxml2' }
 
   
-  #s.private_header_files = 'OPGFramework.framework/PrivateHeaders/*.h', 'OPGRuntime.framework/#PrivateHeaders/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
