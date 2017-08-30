@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestingSDK'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'My First SDK'
 
 
@@ -30,7 +30,7 @@ My First SDK to take mobile surveys
  s.ios.vendored_frameworks = 'OPGFramework.framework', 'OPGRuntime.framework'
 
   s.resource_bundles = {
-'BlinkingLabel' => ['TestingSDK/Assets/*.bundle']
+'BlinkingLabel' => ['TestingSDK/Assets/OPGResourceBundle.bundle']
 }
 
 #s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/mypod/module' }
