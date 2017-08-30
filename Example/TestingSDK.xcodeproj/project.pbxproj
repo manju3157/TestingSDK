@@ -270,7 +270,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestingSDK_Example/Pods-TestingSDK_Example-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/BlinkingLabel.bundle,
+				"${PODS_ROOT}/../../TestingSDK/Assets/OPGResourceBundle.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/TestingSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

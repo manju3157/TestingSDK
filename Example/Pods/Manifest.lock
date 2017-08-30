@@ -1,5 +1,5 @@
 PODS:
-  - TestingSDK (0.1.6)
+  - TestingSDK (0.2.8)
 
 DEPENDENCIES:
   - TestingSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TestingSDK: 66ab19ebdb9ac1375ff0bb2c57d054641c9e3937
+  TestingSDK: cb2e44addba3ada1f7f44e888cb808f08b5a0c43
 
 PODFILE CHECKSUM: 61a48529ee41973d9be6370c188c1c7ddfdc13d4
 

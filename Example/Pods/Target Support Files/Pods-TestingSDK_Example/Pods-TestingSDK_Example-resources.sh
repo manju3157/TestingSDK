@@ -84,10 +84,12 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/BlinkingLabel.bundle"
+  install_resource "${PODS_ROOT}/../../TestingSDK/Assets/OPGResourceBundle.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/TestingSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/BlinkingLabel.bundle"
+  install_resource "${PODS_ROOT}/../../TestingSDK/Assets/OPGResourceBundle.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/TestingSDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -26,6 +26,9 @@ class ViewController: UIViewController {
             print("Authentication Failed")         /* @"Error Occured. Contact Support!" */
             
         }
+
+        let bundlePath = Bundle.main.path(forResource: "OPGResourceBundle", ofType: "bundle")
+        print("Bundle path: \(String(describing: bundlePath))")
     }
 
     override func didReceiveMemoryWarning() {

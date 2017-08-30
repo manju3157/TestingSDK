@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestingSDK'
-  s.version          = '0.1.8'
+  s.version          = '0.2.8'
   s.summary          = 'My First SDK'
 
 
@@ -30,17 +30,20 @@ My First SDK to take mobile surveys
  s.ios.vendored_frameworks = 'OPGFramework.framework', 'OPGRuntime.framework'
 
   s.resource_bundles = {
-'BlinkingLabel' => ['TestingSDK/Assets/OPGResourceBundle.bundle']
+'TestingSDK' => ['TestingSDK/Assets/OPGResourceBundle.bundle']
 }
 
+   s.resources = "TestingSDK/Assets/OPGResourceBundle.bundle"
+
 #s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/mypod/module' }
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+ # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/GDataXML-HTML/libxml' }
+
+ s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-lxml2 -lz -ObjC' }
 
  s.library = 'xml2', 'c++', 'iconv', 'z'
- s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+ #s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC, -lz, -lxml2" }
 
-  
-
+ # { 'OTHER_LDFLAGS' => '-ObjC', '-lz', '-lxml2'  }
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
