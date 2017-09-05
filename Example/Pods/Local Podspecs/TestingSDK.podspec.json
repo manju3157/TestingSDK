@@ -1,6 +1,6 @@
 {
   "name": "TestingSDK",
-  "version": "0.2.8",
+  "version": "0.3.8",
   "summary": "My First SDK",
   "description": "My First SDK to take mobile surveys",
   "homepage": "https://github.com/manju3157/TestingSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/manju3157/TestingSDK.git",
-    "tag": "0.2.8"
+    "tag": "0.3.8"
   },
   "platforms": {
     "ios": "8.0"

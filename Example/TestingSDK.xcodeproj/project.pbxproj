@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		783598401F57E679004C398C /* TakeSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835983F1F57E679004C398C /* TakeSurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		607FACE51AFB9204008FA782 /* TestingSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		7835983F1F57E679004C398C /* TakeSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeSurveyViewController.swift; sourceTree = "<group>"; };
 		AACE71B6404592689538BE3C /* Pods_TestingSDK_Example_TestingSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingSDK_Example_TestingSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC465448B8A6E329799B849E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B3DA69057089B31DCA562712 /* Pods-TestingSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingSDK_Tests/Pods-TestingSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				7835983F1F57E679004C398C /* TakeSurveyViewController.swift */,
 			);
 			name = "Example for TestingSDK";
 			path = TestingSDK;
@@ -271,7 +274,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestingSDK_Example/Pods-TestingSDK_Example-resources.sh",
 				"${PODS_ROOT}/../../TestingSDK/Assets/OPGResourceBundle.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/TestingSDK.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/TestingSDK/TestingSDK.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -327,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783598401F57E679004C398C /* TakeSurveyViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
