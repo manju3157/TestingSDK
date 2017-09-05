@@ -31,6 +31,7 @@ FOUNDATION_EXPORT const unsigned char OPGFrameworkVersionString[];
 #import <OPGFramework/OPGTheme.h>
 #import <OPGFramework/OPGGeoFence.h>
 #import <OPGFramework/OPGGeoFenceSurvey.h>
+#import <OPGFramework/OPGReachability.h>
 
 
 #import <OPGFramework/OPGBaseController.h>
