@@ -1,6 +1,6 @@
 {
   "name": "TestingSDK",
-  "version": "0.3.8",
+  "version": "0.4.2",
   "summary": "My First SDK",
   "description": "My First SDK to take mobile surveys",
   "homepage": "https://github.com/manju3157/TestingSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/manju3157/TestingSDK.git",
-    "tag": "0.3.8"
+    "tag": "0.4.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -30,6 +30,9 @@
     ]
   },
   "resources": "TestingSDK/Assets/OPGResourceBundle.bundle",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/TestingSDK//..\"/**"
+  },
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2",
     "OTHER_LDFLAGS": "-lxml2 -lz -ObjC"

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestingSDK'
-  s.version          = '0.4.1'
+  s.version          = '0.4.2'
   s.summary          = 'My First SDK'
 
 
@@ -35,7 +35,7 @@ My First SDK to take mobile surveys
 
    s.resources = "TestingSDK/Assets/OPGResourceBundle.bundle"
 
-#s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/mypod/module' }
+ s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/TestingSDK//.."/**' }
  # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/GDataXML-HTML/libxml' }
 
  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'OTHER_LDFLAGS' => '-lxml2 -lz -ObjC' }
