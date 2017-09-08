@@ -47,11 +47,8 @@ FOUNDATION_EXPORT const unsigned char OPGFrameworkVersionString[];
 
 
 
-#import <OPGRuntime/IosRuntimeInteractor.h>
-#import <OPGRuntime/WebPlayer.h>
-#import <OPGRuntime/Controller.h>
-#import <OPGRuntime/WebSession.h>
-#import <OPGRuntime/InterviewSession.h>
+#import <OPGRuntime/OPGRuntime.h>
+
 
 
 
