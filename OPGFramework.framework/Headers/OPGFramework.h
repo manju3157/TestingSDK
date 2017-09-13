@@ -47,7 +47,7 @@ FOUNDATION_EXPORT const unsigned char OPGFrameworkVersionString[];
 
 
 
-#import <OPGRuntime/OPGRuntime.h>
+
 
 
 
